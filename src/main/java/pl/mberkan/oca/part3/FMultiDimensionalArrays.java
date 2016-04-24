@@ -1,7 +1,10 @@
+/*
+ * Copyright (c) 2016. Marek Berkan
+ */
 package pl.mberkan.oca.part3;
 
 /**
- *
+ * Multidimensional arrays
  */
 public class FMultiDimensionalArrays {
 

@@ -1,9 +1,12 @@
+/*
+ * Copyright (c) 2016. Marek Berkan
+ */
 package pl.mberkan.oca.part3;
 
 import java.util.ArrayList;
 
 /**
- *
+ * ArrayList examples
  */
 public class GArrayLists {
     public static void main(String[] args) {

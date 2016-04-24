@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2016. Marek Berkan
+ */
 package pl.mberkan.oca.part3;
 
 import java.util.Arrays;
