@@ -4,10 +4,11 @@
 package pl.mberkan.oca.part5;
 
 /**
- * Private method is redeclared, not inherited!
+ * Private method is redeclared, not inherited! (can be hidden and overloaden as static method but not overriden)
  */
 public class CRedeclaringMethods extends RedeclaringMethodsBase {
 
+    // @Override // compiler error
     private String foo(String input) {
         return "Redeclated foo";
     }
@@ -19,6 +20,9 @@ public class CRedeclaringMethods extends RedeclaringMethodsBase {
     public static void main(String[] args) {
         String result = new CRedeclaringMethods().foo("Test");
         System.out.println("Result: " + result);
+        
+        // RedeclaringMethodsBase childClassWithParentRef = new CRedeclaringMethods();
+        // result = childClassWithParentRef.foo("Test"); // compiler error
     }
 }
 
